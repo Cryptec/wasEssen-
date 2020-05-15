@@ -1,4 +1,6 @@
-function generate(thing) {
+
+
+export function generate(thing) {
     var things = [
     'Pizza',
     'Zitronenhühnchen',
@@ -54,12 +56,17 @@ function generate(thing) {
     'Puszta Nudeln',
     'Gefüllte Kartoffeln (mit Hack)',
     'Speckknödel',
-    'Champignonschnitzel'
+    'Champignonschnitzel',
+    'Rahmschnitzel',
+    'Schnitzel',
+    'Tomatensalat mit Kräuterbaguette',
+    'Brotzeit',
+    'Zigeunerschnitzel',
+    'Fast - Food Day!',
+    'Reisfleisch'
 ];
     var thing = things[Math.floor(Math.random()*things.length)];
     alert('Das essen ist: ' + thing);
     
+    
 }
-const rand = generate();
-
-export default rand;
