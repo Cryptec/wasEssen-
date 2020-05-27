@@ -43,6 +43,10 @@ const styles = StyleSheet.create({
     marginHorizontal: 80,
     zIndex: 15,
     marginTop: 80,
+    backgroundColor:'#28004d',
+    borderRadius: 20,
+    elevation:3,
+    padding: 6,
   },
   svg: {
     marginTop:80,
