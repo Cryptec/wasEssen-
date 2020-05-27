@@ -1,5 +1,5 @@
-export function generate(thing) {
-    var things = [
+
+const things = [
     'Pizza',
     'Zitronenhühnchen',
     'Spinat und Spiegelei',
@@ -63,6 +63,9 @@ export function generate(thing) {
     'Fast - Food Day!',
     'Reisfleisch'
 ];
+export default things;
+export function generate(thing) {
+   things
     var thing = things[Math.floor(Math.random()*things.length)];
     alert('Das essen ist: ' + thing);
     

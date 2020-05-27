@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, FlatList, AsyncStorage, Button, TextInput, Keyboard, Platform } from "react-native";
-import generate from '../wasEssen-/src/screens/random'
+import things from '../wasEssen-/src/screens/random'
 
 const isAndroid = Platform.OS == "android";
 const viewPadding = 10;
-
+const things = {things}
 export default class receipeList extends Component {
   state = {
     tasks: [ ], 
