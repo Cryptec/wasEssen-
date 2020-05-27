@@ -1,5 +1,3 @@
-
-
 export function generate(thing) {
     var things = [
     'Pizza',
