@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wasEssen",
-    "slug": "wasEssen",
+    "name": "wasKochen",
+    "slug": "wasKochen",
     "platforms": [
       "ios",
       "android",
@@ -20,7 +20,7 @@
       "backgroundColor": "#000000"
     },
     "androidNavigationBar": {
-      "backgroundColor": "#3A006F",
+      "backgroundColor": "#000000",
       "barStyle": "light-content"
     },
     "updates": {
