@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, FlatList, AsyncStorage, Button, TextInput, Keyboard, Platform } from "react-native";
-
-
+import { color } from "react-native-reanimated";
 const isAndroid = Platform.OS == "android";
 const viewPadding = 10;
 
 export default class receipeList extends Component {
+  
   state = {
     tasks: [ ],
     text: ""
@@ -17,7 +17,6 @@ export default class receipeList extends Component {
 
   addTask = () => {
     let notEmpty = this.state.text.trim().length > 0;
-
     if (notEmpty) {
       this.setState(
         prevState => {
@@ -73,7 +72,7 @@ export default class receipeList extends Component {
                 <Text style={styles.listItem}>
                   {item.text}
                 </Text>
-                <Button title=" X " onPress={() => this.deleteTask(index)} />
+                <Button color= "#EFC904" title=" X " onPress={() => this.deleteTask(index)} />
               </View>
               <View style={styles.hr} />
             </View>}
@@ -116,7 +115,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#28004d",
+    backgroundColor: "#153037",
     padding: viewPadding,
     paddingTop: 20
   },

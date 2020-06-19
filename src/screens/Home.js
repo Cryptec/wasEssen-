@@ -35,7 +35,7 @@ function Home(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#191C2B',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 80,
     zIndex: 15,
     marginTop: 80,
-    backgroundColor:'#000000',
+    backgroundColor:'#000',
     borderRadius: 20,
     elevation:3,
     padding: 6,
@@ -95,7 +95,7 @@ modalText: {
     fontWeight: 'bold'
   },
   buttonContainer: {
-    backgroundColor: '#000000',
+    backgroundColor: '#191C2B',
     borderRadius: 5,
     padding: 30,
     marginTop: -120,
